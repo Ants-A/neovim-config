@@ -13,6 +13,11 @@ M.base46 = {
     NormalFloat = { bg = "#1e1e2e" },    
     NvimTreeNormal = { bg = "NONE" },
     NvimTreeNormalNC = { bg = "#000000" },
+    NvimTreeGitDirty   = { fg = "#e5c07b" }, -- yellow
+    NvimTreeGitNew     = { fg = "#98c379" }, -- green
+    NvimTreeGitDeleted = { fg = "#e06c75" }, -- red
+    NvimTreeGitIgnored = { fg = "#5c6370" }, -- gray
+    NvimTreeGitStaged  = { fg = "#61afef" }, -- blue
   }
 }
 

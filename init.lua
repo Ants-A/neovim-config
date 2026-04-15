@@ -9,6 +9,7 @@ if not vim.uv.fs_stat(lazypath) then
   vim.fn.system { "git", "clone", "--filter=blob:none", repo, "--branch=stable", lazypath }
 end
 
+vim.opt.relativenumber = true
 vim.opt.rtp:prepend(lazypath)
 
 local lazy_config = require "configs.lazy"
@@ -35,3 +36,4 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
