@@ -18,6 +18,32 @@ M.base46 = {
     NvimTreeGitDeleted = { fg = "#e06c75" }, -- red
     NvimTreeGitIgnored = { fg = "#5c6370" }, -- gray
     NvimTreeGitStaged  = { fg = "#61afef" }, -- blue
+    ["@keyword"]               = { fg = "#ff7085" },
+    ["@keyword.function"]      = { fg = "#ff7085" },
+    ["@keyword.operator"]      = { fg = "#ff7085" },
+    ["@keyword.conditional"]   = { fg = "#ff8ccc" },
+    ["@keyword.repeat"]        = { fg = "#ff8ccc" },
+    ["@keyword.return"]        = { fg = "#ff8ccc" },
+    ["@type.builtin"]          = { fg = "#42ffc2" },
+    ["@type"]                  = { fg = "#8fffdb" },
+    ["@function"]              = { fg = "#57b3ff" },
+    ["@function.call"]         = { fg = "#57b3ff" },
+    ["@function.method.call"]  = { fg = "#57b3ff" },
+    ["@variable"]              = { fg = "#cdcfd2" },
+    ["@variable.member"]       = { fg = "#bce0ff" },
+    ["@property"]              = { fg = "#bce0ff" },
+    ["@variable.parameter"]    = { fg = "#cdcfd2" },
+    ["@variable.builtin"]      = { fg = "#ff7085" }, -- self
+    ["@string"]                = { fg = "#ffeda1" },
+    ["@number"]                = { fg = "#a1ffe0" },
+    ["@boolean"]               = { fg = "#ff7085" },
+    ["@constant"]              = { fg = "#a1ffe0" },
+    ["@constant.builtin"]      = { fg = "#ff7085" },
+    ["@attribute"]             = { fg = "#ffb373" }, -- @export, @onready
+    ["@operator"]              = { fg = "#abc9ff" },
+    ["@punctuation.bracket"]   = { fg = "#abc9ff" },
+    ["@punctuation.delimiter"] = { fg = "#abc9ff" },
+    ["@comment"]               = { fg = "#0EE600", italic = true },
   }
 }
 
