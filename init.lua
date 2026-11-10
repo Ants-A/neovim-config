@@ -1,6 +1,8 @@
 vim.g.base46_cache = vim.fn.stdpath "data" .. "/base46/"
 vim.g.mapleader = " "
 vim.opt.clipboard = "unnamedplus"
+vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit insert mode with jj" })
+vim.cmd([[cnoreabbrev <expr> q (getcmdtype() == ':' && getcmdline() == 'q') ? 'q!' : 'q']])
 
 -- bootstrap lazy and all plugins
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
